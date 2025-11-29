@@ -1,0 +1,2 @@
+const Dashboard = React.lazy(() => import('./Dashboard'));
+<Suspense fallback={<div>Loading...</div>}><Dashboard /></Suspense>
